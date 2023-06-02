@@ -1,0 +1,115 @@
+.contact{
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+#contact{
+    margin-top: 3rem;
+    /* padding-top: 3rem; */
+}
+#contact>div{
+    margin-top: 3rem;
+}
+.c-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10px;
+    /* margin-top: 5rem; */
+    margin-bottom: 5rem;
+}
+.contact-part{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.c-right{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* flex-wrap: wrap; */
+    font-size: 20px;
+}
+.c-right>p{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+.c-right>p>a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    
+    letter-spacing: 1px;
+}
+.contact-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.c-left>img{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    width: 500px;
+    margin-top: -100px;
+    padding-left: 20px;
+}
+.footer-part{
+    /* border: 1px solid red; */
+    text-align: center;
+    color: var(--gray);
+    font-size: 16px
+}
+.c-form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-form>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+.button{
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+    cursor: pointer;
+  }
+.c-form .user{
+    width: 25rem;
+    height: 3rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid #FCA61F;
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 4rem!important;
+}
+@media screen and (max-width: 480px) {
+    .c-form .user{
+        width: 16rem;
+    }
+    
+    
+}  

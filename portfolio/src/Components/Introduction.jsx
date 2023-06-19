@@ -30,14 +30,14 @@ const Introduction = () => {
               position: "absolute",
               bottom: 1,
               left: 0,
-              bg: "red.400",
+              bg: "black.400",
               zIndex: -1,
             }}
           >
             Hi, I am Ankesh Kumar
           </Text>
           <br />{" "}
-          <Text color={"red.500"} as={"span"} fontSize={{ lg: "4xl" }}>
+          <Text color={"white.500"} as={"span"} fontSize={{ lg: "4xl" }}>
             <Type />
           </Text>{" "}
         </Heading>

@@ -36,7 +36,7 @@ import {
               position: "absolute",
               bottom: 1,
               left: 0,
-              bg: "red.400",
+              bg: "white.400",
               zIndex: -1,
             }}
           >

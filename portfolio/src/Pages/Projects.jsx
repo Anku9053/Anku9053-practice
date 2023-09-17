@@ -2,7 +2,7 @@ import { Container, Text } from "@chakra-ui/react";
 import React from "react";
 import ProjectCard from "../Components/ProjectCard";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiHtml5 } from "react-icons/si";
+import { SiHtml5,SiJavascript } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiNetlify } from 'react-icons/si'
 import { SiChakraui } from 'react-icons/si'
@@ -56,9 +56,9 @@ const Projects = () => {
         <ProjectCard
           title="FITNESS FIRST"
           discription="It's a collaborative project, made by four people in a span of 5 working days. Fitness First is an online website that helps people to become fit and overcome their anxiety of loosing weights."
-          jsIcon={IoLogoJavascript}
-          htmlIcon={SiHtml5}
-          cssIcon={SiCss3}
+          jsIcon={SiReact}
+          htmlIcon={SiChakraui}
+          cssIcon={SiNetlify}
           githubUrl="https://github.com/RuchiAgrawal9186/FitnessFirst"
           netlifyUrl="https://fitness-first-g.netlify.app/"
           banner={fitnessfirst}
@@ -66,19 +66,19 @@ const Projects = () => {
         <ProjectCard 
           title="GLAMOUR BEAUTY"
           discription="Want to look good in ordinary clothes here is the solution a website that helps over thousands of women to be confident.Glamour Beauty is an Indian e-commerce website. Where User can Shopping according their prefece."
-          jsIcon={IoLogoJavascript}
-          htmlIcon={SiHtml5}
-          cssIcon={SiCss3}
+          jsIcon={SiReact}
+          htmlIcon={SiChakraui}
+          cssIcon={SiNetlify}
           githubUrl="https://github.com/Omkanta/dusty-hat-6390/tree/main/dusty-hat-6390"
           netlifyUrl="https://glamour-pi.vercel.app/"
           banner={glamour}
         />
         <ProjectCard  
           title="MASAI MALL"
-          discription=" Masai Mall is an Indian e-commerce company.Where User can Shopping according their prefece. Many big brands are here where are you!!"
-          jsIcon={SiReact}
-          htmlIcon={SiChakraui}
-          cssIcon={SiNetlify}
+          discription=" Masai Mall is an Indian e-commerce company.Where User can Shopping according their preference.Our motive is to provide everything at your door step at a reasonable price. Many big brands are here where are you!!"
+          jsIcon={SiJavascript}
+          htmlIcon={SiHtml5}
+          cssIcon={SiCss3}
           githubUrl="https://github.com/ashishk2007/attractive-songs-1315"
           netlifyUrl="https://dreamy-semifreddo-625c90.netlify.app/"
           banner={masaimall}
@@ -86,9 +86,9 @@ const Projects = () => {
         <ProjectCard 
           title="ZARA"
           discription=" Zara Clone is an Indian e-commerce website. Where User can Shopping according their prefece. It is a popular E-commerce Website. thats help many people to wear their brands having a trust all over the world"
-          jsIcon={SiReact}
-          htmlIcon={SiChakraui}
-          cssIcon={SiNetlify}
+          jsIcon={SiJavascript}
+          htmlIcon={SiHtml5}
+          cssIcon={SiCss3}
           githubUrl="https://github.com/Anku9053/-defeated-fall-3461"
           netlifyUrl="https://resonant-puppy-aa5911.netlify.app/"
           banner={Zara}

@@ -44,7 +44,7 @@ function TestimonialCard(props) {
   }
   const { name, role, content, avatar, index } = props;
   return (
-    <div id="about" className="about section" >
+    <div id="about" key={index} className="about section" >
       <Flex
         boxShadow={"lg"}
         maxW={{ lg: "800px", md: "100%", base: "500px" }}
@@ -127,10 +127,13 @@ function TestimonialCard(props) {
               transform: "scale(1.05)",
             }}
           />
-          <NavLink to="https://drive.google.com/file/d/1_NPHsfhEYIq0MxcsifXZ7kVKzF2LG3wX/view?usp=sharing">
+          <NavLink to="https://drive.google.com/file/d/1KqbdZyr1_uH6FdAFirUEMIxpqUsPC81Z/view">
             <button id="resume-button-2" onClick={downloadFile1}>
               <SlDocs />
+              <a href={resume} download>
+                
               RESUME
+              </a>
             </button>
           </NavLink>
         </Flex>
@@ -177,7 +180,7 @@ export default function About() {
           mx={"auto"}
         >
           {testimonials.map((cardInfo, index) => (
-            <TestimonialCard {...cardInfo} index={index} />
+            <TestimonialCard {...cardInfo} key={index} index={index} />
           ))}
         </SimpleGrid>
       </Flex>

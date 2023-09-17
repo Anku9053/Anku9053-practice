@@ -26,7 +26,7 @@ export default function Navbar() {
 
   function downloadFile1() {
     window.open(
-      "https://drive.google.com/file/d/1_NPHsfhEYIq0MxcsifXZ7kVKzF2LG3wX/view?usp=sharing",
+      "https://drive.google.com/file/d/1KqbdZyr1_uH6FdAFirUEMIxpqUsPC81Z/view",
       "_blank"
     );
     const link = document.createElement("a");
@@ -108,7 +108,10 @@ export default function Navbar() {
             onClick={downloadFile1}
           >
             <SlDocs/>
+            <a href={resume} download>
+
             RESUME
+            </a>
           </button>
         </NavLink>
           </Flex>
